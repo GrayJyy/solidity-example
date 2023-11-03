@@ -200,6 +200,7 @@ contract ERC721 is IERC721, IERC721Metadata {
         _transfer(owner, from, to, tokenId);
     }
 
+    // safeTransferFrom既可以被授权方调用，也可以被tokenId拥有人调用
     /**
      * 实现IERC721的safeTransferFrom，安全转账，调用了_safeTransfer函数。
      */
