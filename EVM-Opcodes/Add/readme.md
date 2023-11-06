@@ -1,0 +1,7 @@
+```Mnemonic
+PUSH1 0x01
+PUSH1 0x01
+ADD
+PUSH0
+MSTORE
+```
